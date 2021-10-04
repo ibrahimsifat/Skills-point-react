@@ -18,11 +18,15 @@ function App() {
   <BrowserRouter>
   <Header></Header>
   <Switch>
-    
+    <Route exact path='/'>
+<Home></Home>
+<Categories></Categories>
+    </Route>
     <Route path='/home'>
 <Home></Home>
 <Categories></Categories>
 </Route>
+
 <Route path='/categoryes'>
 <Categories></Categories>
     </Route>
@@ -46,9 +50,7 @@ function App() {
     <Route path='/category/6'>
 <Business></Business>
     </Route>
-    <Route exact path='/'>
-<Home></Home>
-    </Route>
+    
     <Route exact path='*'>
 <NotFound></NotFound>
     </Route>
