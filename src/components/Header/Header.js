@@ -7,7 +7,7 @@ const Header = () => {
         <div className='py-2 bg-blue-300 '>
              <Navbar bg="transparnet" variant="light">
     <Container>
-    <Navbar.Brand to="/home"><img className='' style={{width:'30px'}} src={Logo} alt="" /></Navbar.Brand>
+    <Navbar.Brand to="/home"><img className='inline' style={{width:'30px'}} src={Logo} alt="" /> <span className='inline pl-2 font-semibold text-white'>Skills Point</span></Navbar.Brand>
     <Nav className="mx-auto ">
       <NavLink className='no-underline font-bold text-white px-2 py-1 duration-200 rounded mx-2 hover:bg-blue-400' to="/home">Home</NavLink>
       <NavLink  className='no-underline font-bold text-white px-2 py-1 duration-200 rounded mx-2 hover:bg-blue-400' to="/categoryes">Categories</NavLink>
@@ -40,7 +40,7 @@ const Header = () => {
           </NavDropdown.Item>
         </NavDropdown>
 
-      <NavLink  className='no-underline font-bold text-white px-2 py-1 duration-200 rounded mx-2 hover:bg-blue-400' to="/pricing">Pricing</NavLink>
+     
 
     </Nav>
     </Container>

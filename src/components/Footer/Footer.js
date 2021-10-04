@@ -5,7 +5,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 const Arrow = <FontAwesomeIcon icon={faChevronRight} />
 const Footer = () => {
     return (
-        <div className='bg-gray-800'>
+        <div className='bg-gray-800 mt-52'>
           <div className="footer container mx-auto flex text-gray-400 p-10 justify-between items-center">
               <div className="frist">
                   <h3>Skills Point</h3>
