@@ -41,14 +41,14 @@ const SimpleCard=(props)=>{
     const url=`/category/${id}`
     return(
         <Card className='zoom cardShadow my-3' variant='dark' border="light" style={{ width: '18rem' }}>
-       <h1 className=' px-4 py-4 text-blue-400'>{icon}</h1>
+       <h1 className=' px-4 pt-4 text-blue-400'>{icon}</h1>
         <Card.Body>
           <Card.Title><h5  className='font-bold -mt-2'>{title}</h5></Card.Title>
           <Card.Text className='text-gray-600'>
     {text}
           </Card.Text>
           <button className='text-gray-600 no-underline'><span className='text-blue-400'>{RightArrow}</span> 
-          <Link className=' pl-2 no-underline ' to={url}>View More</Link>
+          <Link className=' pl-2 no-underline py-3 ' to={url}>View More</Link>
           </button>
         </Card.Body>
       </Card>
