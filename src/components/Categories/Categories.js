@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // font awesome icon
 const Book = <FontAwesomeIcon icon={faBookOpen
-} size = '2x'/>
+} size = '3x'/>
 const Code = <FontAwesomeIcon icon={faLaptopCode
-} size = '2x'/>
+} size = '3x'/>
 const Data = <FontAwesomeIcon icon={faDatabase 
-} size = '2x' />
+} size = '3x' />
 
 const Health = <FontAwesomeIcon icon={faHeartbeat
-} size = '2x' />
+} size = '3x' />
 const HashTag = <FontAwesomeIcon icon={faHashtag
-} size = '2x' />
+} size = '3x' />
 const Briefcase = <FontAwesomeIcon icon={faBriefcase
-} size = '2x' />
+} size = '3x' />
 const RightArrow = <FontAwesomeIcon icon={faArrowRight
 }  />
 const LanguageText='Our modular degree learning experience gives you the ability to study online anytime and earn credit as you complete your course assignments'
@@ -41,7 +41,7 @@ const SimpleCard=(props)=>{
     const url=`/category/${id}`
     return(
         <Card className='zoom cardShadow my-3' variant='dark' border="light" style={{ width: '18rem' }}>
-       <h1 className=' px-4 pt-4 text-blue-400'>{icon}</h1>
+       <h1 className=' px-4 py-4 text-blue-400'>{icon}</h1>
         <Card.Body>
           <Card.Title><h5  className='font-bold -mt-2'>{title}</h5></Card.Title>
           <Card.Text className='text-gray-600'>
