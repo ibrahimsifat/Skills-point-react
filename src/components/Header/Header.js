@@ -11,9 +11,11 @@ const Header = () => {
     <Nav className="mx-auto ">
       <NavLink className='no-underline font-bold text-white px-2 py-1 duration-200 rounded mx-2 hover:bg-blue-400' to="/home">Home</NavLink>
       <NavLink  className='no-underline font-bold text-white px-2 py-1 duration-200 rounded mx-2 hover:bg-blue-400' to="/categoryes">Categories</NavLink>
+      
+      <NavLink  className='no-underline font-bold text-white px-2 py-1 duration-200 rounded mx-2 hover:bg-blue-400' to="/about">About us</NavLink>
 
 
-      <NavDropdown className='no-underline font-bold text-white px-2 duration-200 rounded mx-2 hover:bg-blue-400' title="Courses" id="navbarScrollingDropdown " to='/categoryes'>
+      <NavDropdown className='no-underline font-bold text-white px-2 duration-300 rounded mx-2 hover:bg-blue-400' title="Courses" id="" to='/categoryes'>
           <NavDropdown.Item>
             <NavLink className='no-underline text-dark' to="/category/1">Language</NavLink>
             

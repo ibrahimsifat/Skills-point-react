@@ -12,6 +12,8 @@ import Health from './components/Categories/Courses/Health'
 import Math from './components/Categories/Courses/Math'
 import Business from './components/Categories/Courses/Business'
 import NotFound from './components/NotFound/NotFound';
+import About from './components/About/About'
+import Why from './components/Why/Why';
 function App() {
   return (
   <div>
@@ -21,14 +23,19 @@ function App() {
     <Route exact path='/'>
 <Home></Home>
 <Categories></Categories>
+<Why></Why>
     </Route>
     <Route path='/home'>
 <Home></Home>
 <Categories></Categories>
+<Why></Why>
 </Route>
 
 <Route path='/categoryes'>
 <Categories></Categories>
+    </Route>
+<Route path='/about'>
+<About></About>
     </Route>
 
     <Route path='/category/1'>
