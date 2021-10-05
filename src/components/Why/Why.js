@@ -16,7 +16,7 @@ Why Skills Point?
 </div>
 <div className="card-wapper grid grid-cols-4 gap-y-10  ">
   
-    <Cart title='Experience' img={Use1}></Cart>
+    <Cart classstyle='bg-red-300' title='Experience' img={Use1}></Cart>
     <Cart title='Professionality' img={Use2}></Cart>
     <Cart title='Guarantee' img={Use3}></Cart>
     <Cart title='Quality' img={Use4}></Cart>
